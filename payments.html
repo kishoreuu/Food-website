@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .payment-options {
+            margin: 20px 0;
+        }
+        .payment-option {
+            margin-bottom: 10px;
+        }
+        label {
+            font-size: 20px;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Select a Payment Option</h2>
+<div class="form-group">
+    <input type="text" name="name" placeholder="Enter Your Name">    
+</div><br>
+
+<div class="form-group">
+    <input type="text" Phone No="Phone" placeholder="Enter Your Phone no">
+</div><br>
+<div class="form-group">
+    <input type="text" Card No="Card" placeholder="Enter Your Card no">
+</div><br>
+<input type="text area" name="Address" placeholder="Enter Your Address">    
+</div><br>
+<form class="payment-options">
+    <div class="payment-option">
+        <input type="radio" id="credit-card" name="payment" value="credit-card" checked>
+        <label for="credit-card">Credit Card</label>
+    </div>
+
+    <div class="payment-option">
+        <input type="radio" id="debit-card" name="payment" value="debit-card">
+        <label for="debit-card">Debit Card</label>
+    </div>
+
+    <div class="payment-option">
+        <input type="radio" id="Phonepay" name="payment" value="Phonepay">
+        <label for="Phonepay">Phonepay</label>
+    </div>
+
+    <div class="payment-option">
+        <input type="radio" id="net-banking" name="payment" value="net-banking">
+        <label for="net-banking">Net Banking</label>
+    </div>
+
+    <form>
+        <button type="Proceed for payment"><a href="confirmorder.html">Proceed for payment</a></button>
+    </form>
+</form>
+</body>
+</html>
